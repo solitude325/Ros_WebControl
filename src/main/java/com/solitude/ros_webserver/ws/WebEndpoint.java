@@ -1,7 +1,6 @@
 package com.solitude.ros_webserver.ws;
 
 import com.alibaba.fastjson.JSON;
-import com.solitude.ros_webserver.config.GetHttpSessionConfig;
 import com.solitude.ros_webserver.ws.pojo.RosMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.java_websocket.client.WebSocketClient;
