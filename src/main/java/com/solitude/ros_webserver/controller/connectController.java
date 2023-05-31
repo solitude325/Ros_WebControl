@@ -12,6 +12,7 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("connect")
 public class connectController {
     @PostMapping("connect")
+    @CrossOrigin
     public Result connect(@RequestBody Connect connect, HttpSession session) {
         Result result = new Result();
         if (connect != null) {
